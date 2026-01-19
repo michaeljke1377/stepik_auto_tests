@@ -5,6 +5,7 @@ import time
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import unittest
 
 try:
     link = "http://suninjuly.github.io/explicit_wait2.html"
