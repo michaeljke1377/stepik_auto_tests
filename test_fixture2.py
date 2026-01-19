@@ -33,10 +33,10 @@ def test_guest_should_see_login_link(browser, link):
     login_field = WebDriverWait(browser, 30).until(
         EC.visibility_of_element_located((By.ID, "id_login_email"))
     )
-    login_field.send_keys("mipo_01@mail.ru")
+    login_field.send_keys("mikhail@mail.ru")
 
     password = browser.find_element(By.ID, "id_login_password")
-    password.send_keys("1234567890ь")
+    password.send_keys("zxasafaf1412")
 
 
     # Клик по кнопке "Войти"
